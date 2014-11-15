@@ -56,7 +56,7 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		var_dump("My other change");
+		var_dump("My oschange");
 		$this->load->view('welcome_message');
 	}
 }
