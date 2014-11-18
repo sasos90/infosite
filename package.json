@@ -1,0 +1,12 @@
+{
+     "name": "my-infosite",
+     "version": "0.0.1",
+     "author" : "SasoSabotin",
+     "private": true,
+     "devDependencies": {
+         "grunt": "~0.4.1",
+         "grunt-contrib-sass": "*",
+         "grunt-contrib-watch": "*",
+         "grunt-contrib-compass": "*"
+     }
+ }
