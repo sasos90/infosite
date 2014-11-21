@@ -3,10 +3,18 @@
      "version": "0.0.1",
      "author" : "SasoSabotin",
      "private": true,
-     "devDependencies": {
-         "grunt": "~0.4.1",
-         "grunt-contrib-sass": "*",
-         "grunt-contrib-watch": "*",
-         "grunt-contrib-compass": "*"
+     "devDependencies" : {
+         "grunt" :                   "~0.4.0",
+         "grunt-contrib-cssmin" :    "*",
+         "grunt-contrib-sass" :      "*",
+         "grunt-contrib-uglify" :    "*",
+         "grunt-contrib-watch" :     "*",
+         "grunt-contrib-concat" :    "*",
+         "grunt-contrib-compass" :   "*",
+         "grunt-contrib-copy":       "*",
+         "grunt-cssc":               "*",
+         "grunt-autoprefixer":       "*",
+         "grunt-htmlhint" :          "*",
+         "matchdep" :                "*"
      }
  }
