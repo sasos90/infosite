@@ -53,12 +53,23 @@
           </ul>
         </li>
       </ul>
-
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="http://builtwithbootstrap.com/" target="_blank">Built With Bootstrap</a></li>
-        <li><a href="https://wrapbootstrap.com/?ref=bsw" target="_blank">WrapBootstrap</a></li>
-      </ul>
-
     </div>
   </div>
+</div>
+<div class="container">
+    <div class="page-header" id="banner">
+        <div class="row">
+            <div class="col-lg-8 col-md-7 col-sm-6">
+                <h1>Sašo Sabotin</h1>
+                <p class="lead">Personal info page</p>
+            </div>
+        </div>
+    </div>
+    <div class="alert alert-dismissable alert-warning">
+        <h4>Warning!</h4>
+        <p>The page is under construction.</p>
+    </div>
+    <div class="progress">
+        <div class="progress-bar progress-bar-success" style="width: 10%"></div>
+    </div>
 </div>
