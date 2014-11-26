@@ -62,6 +62,9 @@ class MY_Controller extends CI_Controller {
 	 */
 	public function index()
 	{
+		$data = [
+		];
+		$this->load->view("main/page", $data);
 		$this->load->view('footer');
 	}
 }
