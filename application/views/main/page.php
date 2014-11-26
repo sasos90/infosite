@@ -53,27 +53,23 @@
           </ul>
         </li>
       </ul>
-
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="http://builtwithbootstrap.com/" target="_blank">Built With Bootstrap</a></li>
-        <li><a href="https://wrapbootstrap.com/?ref=bsw" target="_blank">WrapBootstrap</a></li>
-      </ul>
-
     </div>
   </div>
 </div>
 <div class="container">
     <div class="page-header" id="banner">
         <div class="row">
-          <div class="col-lg-8 col-md-7 col-sm-6">
-            <h1>Superhero</h1>
-            <p class="lead">The brave and the blue</p>
-          </div>
-          <div class="col-lg-4 col-md-5 col-sm-6">
-            <div class="sponsor">
-              <a href="http://gridgum.com/themes/category/bootstrap-themes/?utm_source=Bootswatch&amp;utm_medium=250ad&amp;utm_campaign=Bootswatch%20Campaign" target="_blank" onclick="_gaq.push(['_trackEvent', 'banner', 'click', 'gridgum']);"><img src="../assets/img/gridgum.png" alt="Gridgum" onload="_gaq.push(['_trackEvent', 'banner', 'impression', 'gridgum']);"></a>
+            <div class="col-lg-8 col-md-7 col-sm-6">
+                <h1>Sašo Sabotin</h1>
+                <p class="lead">Personal info page</p>
             </div>
-          </div>
         </div>
+    </div>
+    <div class="alert alert-dismissable alert-warning">
+        <h4>Warning!</h4>
+        <p>The page is under construction.</p>
+    </div>
+    <div class="progress">
+        <div class="progress-bar progress-bar-success" style="width: 10%"></div>
     </div>
 </div>
