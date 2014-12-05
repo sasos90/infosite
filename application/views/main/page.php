@@ -1,61 +1,46 @@
-<div class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-trans navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <a href="../" class="navbar-brand">Bootswatch</a>
-      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsible">
+        <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+      <a class="navbar-brand" href="#">Brand</a>
     </div>
-    <div class="navbar-collapse collapse" id="navbar-main">
-      <ul class="nav navbar-nav">
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Themes <span class="caret"></span></a>
-          <ul class="dropdown-menu" aria-labelledby="themes">
-            <li><a href="../default/">Default</a></li>
-            <li class="divider"></li>
-            <li><a href="../cerulean/">Cerulean</a></li>
-            <li><a href="../cosmo/">Cosmo</a></li>
-            <li><a href="../cyborg/">Cyborg</a></li>
-            <li><a href="../darkly/">Darkly</a></li>
-            <li><a href="../flatly/">Flatly</a></li>
-            <li><a href="../journal/">Journal</a></li>
-            <li><a href="../lumen/">Lumen</a></li>
-            <li><a href="../paper/">Paper</a></li>
-            <li><a href="../readable/">Readable</a></li>
-            <li><a href="../sandstone/">Sandstone</a></li>
-            <li><a href="../simplex/">Simplex</a></li>
-            <li><a href="../slate/">Slate</a></li>
-            <li><a href="../spacelab/">Spacelab</a></li>
-            <li><a href="../superhero/">Superhero</a></li>
-            <li><a href="../united/">United</a></li>
-            <li><a href="../yeti/">Yeti</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="../help/">Help</a>
-        </li>
-        <li>
-          <a href="http://news.bootswatch.com">Blog</a>
-        </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Download <span class="caret"></span></a>
-          <ul class="dropdown-menu" aria-labelledby="download">
-            <li><a href="./bootstrap.min.css">bootstrap.min.css</a></li>
-            <li><a href="./bootstrap.css">bootstrap.css</a></li>
-            <li class="divider"></li>
-            <li><a href="./variables.less">variables.less</a></li>
-            <li><a href="./bootswatch.less">bootswatch.less</a></li>
-            <li class="divider"></li>
-            <li><a href="./_variables.scss">_variables.scss</a></li>
-            <li><a href="./_bootswatch.scss">_bootswatch.scss</a></li>
-          </ul>
-        </li>
+    <div class="navbar-collapse collapse" id="navbar-collapsible">
+      <ul class="nav navbar-nav navbar-left">
+        <li class="active"><a href="#section1">What</a></li>
+        <li><a href="#section2">When</a></li>
+        <li><a href="#section3">How</a></li>
+        <li><a href="#section4">Four</a></li>
+        <li><a href="#section5">Five</a></li>
+        <li><a href="#section6">Why</a></li>
+        <li><a href="#section7">Who</a></li>
+        <li>&nbsp;</li>
       </ul>
+      <form class="navbar-form">
+        <div class="form-group" style="display:inline;">
+          <div class="input-group"> 
+            <div class="input-group-btn">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-chevron-down"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="#">Category 1</a></li>
+                <li><a href="#">Category 2</a></li>
+                <li><a href="#">Category 3</a></li>
+                <li><a href="#">Category 4</a></li>
+                <li><a href="#">Category 5</a></li> 
+              </ul>
+            </div>
+            <input type="text" class="form-control" placeholder="What are searching for?">
+            <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span> </span>
+          </div>
+        </div>
+      </form>
     </div>
   </div>
-</div>
+</nav>
 <div class="container">
     <div class="page-header" id="banner">
         <div class="row">
@@ -70,6 +55,29 @@
         <p>The page is under construction.</p>
     </div>
     <div class="progress">
-        <div class="progress-bar progress-bar-success" style="width: 10%"></div>
+        <div class="progress-bar progress-bar-success" style="width: 25%"></div>
     </div>
 </div>
+<section class="container-fluid" id="section1">
+    <h1 class="text-center v-center">Sectionalize.</h1>
+    <div class="container">
+      <div class="row">
+          <div class="col-sm-4">
+            <div class="row">
+              <div class="col-sm-10 col-sm-offset-2 text-center"><h3>Robust</h3><p>There is other content and snippets of details or features that can be placed here..</p><i class="fa fa-cog fa-5x"></i></div>
+            </div>
+          </div>
+          <div class="col-sm-4 text-center">
+            <div class="row">
+              <div class="col-sm-10 col-sm-offset-1 text-center"><h3>Simple</h3><p>You may also want to create content that compells users to scroll down more..</p><i class="fa fa-user fa-5x"></i></div>
+            </div>
+          </div>
+          <div class="col-sm-4 text-center">
+            <div class="row">
+              <div class="col-sm-10 text-center"><h3>Clean</h3><p>In the first 30 seconds of a user's visit to your site they decide if they're going to stay..</p><i class="fa fa-mobile fa-5x"></i></div>
+            </div>
+          </div>
+      </div><!--/row-->
+    <div class="row"><br></div>
+  </div><!--/container-->
+</section>
