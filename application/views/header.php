@@ -1,9 +1,7 @@
 <html>
     <head>
-        <link href="style/css/libs/font-awesome.min.css" type="text/css" rel="stylesheet">
-        <link href="style/css/libs/bootstrap.min.css" type="text/css" rel="stylesheet">
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+        <link href="style/libs/font-awesome-4.2.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+        <link href="style/libs/bootstrap-3.1.1/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet">
         <style type="text/css">
                     /*
         A custom Bootstrap 3.1 template
