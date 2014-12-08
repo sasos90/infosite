@@ -62,6 +62,7 @@ class MY_Controller extends CI_Controller {
 	 */
 	public function index()
 	{
+		$this->load->view("navbar");
 		$data = [
 		];
 		$this->load->view("main/page", $data);
