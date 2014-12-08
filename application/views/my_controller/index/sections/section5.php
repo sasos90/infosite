@@ -1,4 +1,4 @@
-<h1 class="text-center v-center">Sectionalize2.</h1>
+<h1 class="text-center v-center">Sectionalize5.</h1>
 <div class="container">
     <div class="row">
         <div class="col-sm-4">
