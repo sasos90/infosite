@@ -35,62 +35,60 @@ html, body {
 section {
   padding-top: 70px;
   padding-bottom: 50px;
-  min-height: calc(100% - 1px);
 }
 
-/* line 34, ../sass/components/_sections.scss */
+/* line 33, ../sass/components/_sections.scss */
 .v-center {
-  padding-top: 10%;
   font-size: 70px;
 }
 
-/* line 39, ../sass/components/_sections.scss */
+/* line 37, ../sass/components/_sections.scss */
 .well {
   border-color: transparent;
 }
 
-/* line 43, ../sass/components/_sections.scss */
+/* line 41, ../sass/components/_sections.scss */
 a.list-group-item.active, [class*='-info'] {
   background-color: #168ccc;
   color: #fff;
 }
 
-/* line 48, ../sass/components/_sections.scss */
+/* line 46, ../sass/components/_sections.scss */
 #section1 {
   background-color: #168ccc;
   color: #dedeff;
 }
 
-/* line 53, ../sass/components/_sections.scss */
+/* line 51, ../sass/components/_sections.scss */
 #section2 {
   background-color: #e5e5ef;
   color: #686868;
 }
 
-/* line 58, ../sass/components/_sections.scss */
+/* line 56, ../sass/components/_sections.scss */
 #section3 {
   background-color: #168ccc;
   color: #ddd;
 }
 
-/* line 63, ../sass/components/_sections.scss */
+/* line 61, ../sass/components/_sections.scss */
 #section4 {
   background-color: #fff;
   color: #444;
 }
 
-/* line 68, ../sass/components/_sections.scss */
+/* line 66, ../sass/components/_sections.scss */
 #section5, #section7, #section7 a {
   color: #f5f5f5;
 }
 
-/* line 72, ../sass/components/_sections.scss */
+/* line 70, ../sass/components/_sections.scss */
 #section6 {
   background-color: #168ccc;
   color: #ddd;
 }
 
-/* line 77, ../sass/components/_sections.scss */
+/* line 75, ../sass/components/_sections.scss */
 footer {
   background-color: #494949;
   color: #ddd;
@@ -98,12 +96,12 @@ footer {
   padding-top: 20px;
   padding-bottom: 40px;
 }
-/* line 83, ../sass/components/_sections.scss */
+/* line 81, ../sass/components/_sections.scss */
 footer .nav > li > a {
   padding: 3px;
   color: #ccc;
 }
-/* line 87, ../sass/components/_sections.scss */
+/* line 85, ../sass/components/_sections.scss */
 footer .nav > li > a:hover {
   background-color: transparent;
   color: #fff;
