@@ -1,4 +1,4 @@
-<h1 class="text-center v-center">... what I do?</h1>
+<h1 class="text-center v-center">What do I do?</h1>
 <div class="container">
     <div class="row"><br></div>
     <div class="row">
