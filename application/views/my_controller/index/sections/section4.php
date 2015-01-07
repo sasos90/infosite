@@ -1,28 +1,30 @@
 <h1 class="text-center">How this page is built?</h1>
+<div class="row"><br /></div>
 <div class="row">
-    <div class="col-sm-4">
-        <div class="row">
-            <div class="col-sm-10 col-sm-offset-2 text-center">
-                <h3>PHP</h3>
-                <p>CodeIgniter framework</p>
-            </div>
-        </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-1 col-md-offset-2 text-center">
+        <h3>PHP</h3>
     </div>
-    <div class="col-sm-4">
-        <div class="row">
-            <div class="col-sm-10 col-sm-offset-1 text-center">
-                <h3>PHP</h3>
-                <p>CodeIgniter framework</p>
-            </div>
-        </div>
+    <div class="col-md-4">
+        <p>CodeIgniter framework</p>
     </div>
-    <div class="col-sm-4">
-        <div class="row">
-            <div class="col-sm-10 text-center">
-                <h3>PHP</h3>
-                <p>CodeIgniter framework</p>
-            </div>
-        </div>
+</div><!--/row-->
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-1 col-md-offset-2 text-center">
+        <h3>JS</h3>
+    </div>
+    <div class="col-md-4">
+        <p>CodeIgniter framework</p>
+    </div>
+</div><!--/row-->
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-1 col-md-offset-2 text-center">
+        <h3>AJAX</h3>
+    </div>
+    <div class="col-md-4">
+        <p>If you noticed, every page, except the first one, did load with JavaScript AJAX call. So when the page is refreshed, it dynamicaly load every page depend on scroll position.</p>
     </div>
 </div><!--/row-->
 <div class="row"><br></div>
