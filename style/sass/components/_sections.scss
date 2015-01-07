@@ -45,7 +45,9 @@ a.list-group-item.active,[class*='-info'] {
   
 #section1 {
     background-color: #168ccc;
-    color:#dedeff;
+    color: #dedeff;
+    height: calc(100% - 1px);
+    padding-top: 15%;
 }
   
 #section2 {
