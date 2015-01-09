@@ -5,3 +5,5 @@
         <link href="style/css/styles.css" type="text/css" rel="stylesheet">
     </head>
     <body>
+        <input type="hidden" id="controller" value="<?= $this->router->fetch_class(); ?>"/>
+        <input type="hidden" id="method" value="<?= $this->router->fetch_method(); ?>"/>
