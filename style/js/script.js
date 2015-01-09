@@ -1,11 +1,12 @@
 $(document).ready(function(){
+    loadSection("section2");
     $(document).scroll(function() {
         $("section").each(function(){
             $this = $(this);
             if (isScrolledIntoView($this) === true) {
                 if (saveLoadedSection($this.attr("id")) === true) {
                     // load content with ajax for next section
-                    
+
                 }
             }
         });
@@ -38,4 +39,23 @@ function saveLoadedSection(id)
         return true;
     }
     return false;
+}
+
+function loadSection(name)
+{
+    $.ajax({
+        type: "POST",
+        dataType: "json",
+        url: "Section/load",
+        data: {
+            controller: $("#controller").val(),
+            method: $("#method").val(),
+            section: name
+        },
+        success: function(result) {
+            if (result.status === "success") {
+                $("#" + name).html(result.data.sectionHtml);
+            }
+        }
+    });
 }
