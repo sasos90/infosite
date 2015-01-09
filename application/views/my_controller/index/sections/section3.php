@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 text-center">
                     <h3>HTML + CSS</h3>
-                    <p>Also template engines for node.js like "Express" + CSS3 with Compass/Grunt usage</p>
+                    <p>Raw HTML and CSS with template engines for node.js like "Express" + CSS3 with Compass/Grunt usage</p>
                     <i class="fa fa-paint-brush fa-5x"></i>
                 </div>
             </div>
