@@ -6,7 +6,8 @@
         <h3>PHP</h3>
     </div>
     <div class="col-md-4">
-        <p>CodeIgniter framework</p>
+        <p>I used a PHP framework called <a href="http://www.codeigniter.com/">CodeIgniter</a>.
+        Shown pages and AJAX calls are handled by it's own Controller.</p>
     </div>
 </div><!--/row-->
 <div class="row">
@@ -15,7 +16,7 @@
         <h3>JS</h3>
     </div>
     <div class="col-md-4">
-        <p>CodeIgniter framework</p>
+        <p>jQuery library is used for this page.</p>
     </div>
 </div><!--/row-->
 <div class="row">
@@ -24,7 +25,8 @@
         <h3>AJAX</h3>
     </div>
     <div class="col-md-4">
-        <p>If you noticed, every page, except the first one, did load with JavaScript AJAX call. So when the page is refreshed, it dynamicaly load every page depend on scroll position.</p>
+        <p>If you noticed, every page, except the first one, did load with JavaScript AJAX call.
+        So when the page is refreshed, it dynamicaly load every page depend on scroll position.</p>
     </div>
 </div><!--/row-->
 <div class="row"><br></div>
