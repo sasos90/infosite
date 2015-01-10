@@ -3,10 +3,15 @@ $(document).ready(function(){
     $(document).scroll(function() {
         $("section").each(function(){
             $this = $(this);
-            if (isScrolledIntoView($this) === true) {
+            // if section is visible and we are not at the top of the page
+            if (isScrolledIntoView($this) === true && $(window).scrollTop() !== 0) {
                 if (saveLoadedSection($this.attr("id")) === true) {
                     // load content with ajax for next section
-
+                    var nextSectionNr = parseInt($this.attr("id").replace("section", "")) + 1;
+                    if ($("#section" + nextSectionNr).length > 0) {
+                        //because next section exists, we can load it into the page
+                        loadSection("section" + nextSectionNr);
+                    }
                 }
             }
         });
@@ -46,6 +51,7 @@ function loadSection(name)
     $.ajax({
         type: "POST",
         dataType: "json",
+        async: false,
         url: "Section/load",
         data: {
             controller: $("#controller").val(),
