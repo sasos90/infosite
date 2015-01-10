@@ -3,11 +3,12 @@ $(document).ready(function(){
     $(document).scroll(function() {
         $("section").each(function(){
             $this = $(this);
+            var id = $this.attr("id");
             // if section is visible and we are not at the top of the page
             if (isScrolledIntoView($this) === true && $(window).scrollTop() !== 0) {
-                if (saveLoadedSection($this.attr("id")) === true) {
+                if (saveLoadedSection(id) === true) {
                     // load content with ajax for next section
-                    var nextSectionNr = parseInt($this.attr("id").replace("section", "")) + 1;
+                    var nextSectionNr = parseInt(id.replace("section", "")) + 1;
                     if ($("#section" + nextSectionNr).length > 0) {
                         //because next section exists, we can load it into the page
                         loadSection("section" + nextSectionNr);
