@@ -9,7 +9,6 @@ module.exports = function(grunt) {
                     cssDir: 'style/css',
                     force: true,
                     relativeAssets     : true,
-                    require            : ['singularitygs', 'breakpoint'],
                     environment: 'development',
                     outputStyle: 'expanded'
                 }
