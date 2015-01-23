@@ -2,10 +2,9 @@ $(document).ready(function(){
     $("section").each(function(){
         $this = $(this);
         var id = $this.attr("id");
-        var nextSectionNr = parseInt(id.replace("section", "")) + 1;
-        if ($("#section" + nextSectionNr).length > 0) {
-            //because next section exists, we can load it into the page
-            loadSection("section" + nextSectionNr);
+        var sectionId = parseInt(id.replace("section", ""));
+        if (sectionId > 1) {
+            loadSection("section" + sectionId);
         }
     });
 });
