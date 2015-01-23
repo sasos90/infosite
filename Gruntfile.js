@@ -28,7 +28,8 @@ module.exports = function(grunt) {
             prod: {
                 files: {
                     'style/js/script.min.js': ['style/js/script.js']
-                }
+                },
+                compress: true
             }
         },
         watch: {
