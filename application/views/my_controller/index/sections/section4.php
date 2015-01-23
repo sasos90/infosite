@@ -8,8 +8,8 @@
     <div class="col-md-4">
         <p>I used the PHP framework called <a href="http://www.codeigniter.com/">CodeIgniter</a>.
         Shown pages and AJAX calls are handled by it's own Controller.</p>
-        <img src="images/my_controller/main/php-logo.png" />
-        <img src="images/my_controller/main/ci-logo.png" />
+        <img src="images/my_controller/main/php-logo.png" class="thumbnail" />
+        <img src="images/my_controller/main/ci-logo.png" class="thumbnail" />
     </div>
 </div><!--/row-->
 <div class="row">
@@ -19,7 +19,7 @@
     </div>
     <div class="col-md-4">
         <p>jQuery library is used for this page.</p>
-        <img src="images/my_controller/main/js-logo.png" />
+        <img src="images/my_controller/main/js-logo.png" class="thumbnail" />
     </div>
 </div><!--/row-->
 <div class="row">
