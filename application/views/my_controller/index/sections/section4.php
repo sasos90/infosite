@@ -38,4 +38,13 @@
         So when the page is refreshed, it dynamicaly load every section and populate it in the proper box.</p>
     </div>
 </div><!--/row-->
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-1 col-md-offset-2 text-center">
+        <h3>CSS</h3>
+    </div>
+    <div class="col-md-4">
+        <p>We used SASS framework for CSS with a help of compass work.</p>
+    </div>
+</div><!--/row-->
 <div class="row"><br></div>
