@@ -25,8 +25,8 @@
         <h3>AJAX</h3>
     </div>
     <div class="col-md-4">
-        <p>If you noticed, every page, except the first one, did load with JavaScript AJAX call.
-        So when the page is refreshed, it dynamicaly load every page depend on scroll position.</p>
+        <p>If you noticed, every page, except the first one, is loaded with JavaScript AJAX call.
+        So when the page is refreshed, it dynamicaly load every section and populate it in the proper box.</p>
     </div>
 </div><!--/row-->
 <div class="row"><br></div>
