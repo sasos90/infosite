@@ -6,7 +6,7 @@
         <h3>PHP</h3>
     </div>
     <div class="col-md-4">
-        <p>I used a PHP framework called <a href="http://www.codeigniter.com/">CodeIgniter</a>.
+        <p>I used the PHP framework called <a href="http://www.codeigniter.com/">CodeIgniter</a>.
         Shown pages and AJAX calls are handled by it's own Controller.</p>
     </div>
 </div><!--/row-->
