@@ -28,6 +28,9 @@ html,body {
 section {
     padding-top:70px;  
     padding-bottom:50px; 
+    .thumbnail {
+        max-width: 80px;
+    }
 }
 
 .v-center {
