@@ -6,11 +6,4 @@
     <div class="text-center">
         <i class="fa fa-sort-down fa-5x"></i>
     </div>
-    <div class="alert alert-dismissable alert-warning">
-        <h4>Warning!</h4>
-        <p>The page is under construction.</p>
-    </div>
-    <div class="progress">
-        <div class="progress-bar progress-bar-success" style="width: 65%"></div>
-    </div>
 </div>
