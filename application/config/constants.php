@@ -55,6 +55,9 @@ define('FILE_WRITE_MODE', 0666);
 define('DIR_READ_MODE', 0755);
 define('DIR_WRITE_MODE', 0755);
 
+// My constants
+define('SITE_VERSION', "1.0.0.1"); // Site version
+
 /*
 |--------------------------------------------------------------------------
 | File Stream Modes
