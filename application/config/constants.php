@@ -56,7 +56,7 @@ define('DIR_READ_MODE', 0755);
 define('DIR_WRITE_MODE', 0755);
 
 // My constants
-define('SITE_VERSION', "1.0.0.3"); // Site version
+define('SITE_VERSION', "1.0.0.4"); // Site version
 
 /*
 |--------------------------------------------------------------------------
