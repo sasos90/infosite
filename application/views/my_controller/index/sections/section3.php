@@ -44,7 +44,7 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 text-center">
                     <h3>C#</h3>
-                    <p>I created some desktop applications with it and also one ASP.NET web page.</p>
+                    <p>I created some desktop applications with it and also ASP.NET web page.</p>
                     <i class="fa fa-area-chart fa-5x"></i>
                 </div>
             </div>
