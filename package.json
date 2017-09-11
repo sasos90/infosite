@@ -1,6 +1,6 @@
 {
      "name": "my-infosite",
-     "version": "0.0.1",
+     "version": "0.0.2",
      "author" : "SasoSabotin",
      "private": true,
      "devDependencies" : {
