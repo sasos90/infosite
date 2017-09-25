@@ -7,7 +7,7 @@
                 <div class="col-md-10 col-md-offset-1 text-center">
                     <h3>HTML + CSS</h3>
                     <p>Fan of CSS precompilers like SCSS</p>
-                    <i class="fa fa-paint-brush fa-5x"></i>
+                    <i class="fa fa-html5 fa-5x"></i>
                 </div>
             </div>
         </div>
@@ -54,7 +54,7 @@
                 <div class="col-md-10 col-md-offset-1 text-center">
                     <h3>GIT</h3>
                     <p>First choice when it comes to the version control of my source code using it with Gitflow plugin</p>
-                    <i class="fa fa-linux fa-5x"></i>
+                    <i class="fa fa-code-fork fa-5x"></i>
                 </div>
             </div>
         </div>
