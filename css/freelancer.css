@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Freelancer v4.0.0-beta (http://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
+ * Start Bootstrap -  v1.0.0 ()
+ * Copyright 2013-2017 SasoSabotin
+ * Licensed under  (https://github.com/BlackrockDigital/my-infosite/blob/master/LICENSE)
  */
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -166,7 +166,9 @@ header.masthead {
   background: #18BC9C; }
   header.masthead img {
     display: block;
-    margin: 0 auto 20px; }
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    max-width: 256px; }
   header.masthead .intro-text .name {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 2em;
