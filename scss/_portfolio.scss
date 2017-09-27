@@ -123,9 +123,16 @@
 }
 
 #skills {
+  .fa-html5 {
+    color: #F16529;
+  }
+  .fa-css3 {
+    color: #1572B6;
+  }
   .label {
     text-align: center;
     font-size: 36px;
+    font-weight: bold;
   }
   .caption {
     text-align: center;
