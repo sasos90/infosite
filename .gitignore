@@ -4,3 +4,4 @@ node_modules
 style/css/all.css
 .sass-cache
 .idea/
+npm-debug.log

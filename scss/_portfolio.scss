@@ -1,5 +1,5 @@
 // Styling for the portfolio section
-#portfolio {
+#portfolio, #skills {
   .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -120,4 +120,8 @@
     display: none;
     opacity: 0;
   }
+}
+
+#skills {
+  
 }
