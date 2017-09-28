@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap -  v1.0.0 ()
+ * Start Bootstrap -  v1.0.1 ()
  * Copyright 2013-2017 SasoSabotin
  * Licensed under  (https://github.com/BlackrockDigital/my-infosite/blob/master/LICENSE)
  */
