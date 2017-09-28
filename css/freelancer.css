@@ -315,6 +315,9 @@ header.masthead {
     text-align: center;
     font-size: 24px; }
 
+.mercedescup-screenshots .screenshot {
+  max-width: 160px; }
+
 .screenshot {
   max-width: 200px; }
 
