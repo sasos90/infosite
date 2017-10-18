@@ -164,3 +164,14 @@
 .screenshot {
   max-width: 200px;
 }
+
+#skills {
+  img, .fa {
+    transition: all .2s;
+    transform: scale(0.8);
+
+    &:hover {
+      transform: scale(1);
+    }
+  }
+}

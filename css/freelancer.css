@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap -  v1.0.2 ()
+ * Start Bootstrap -  v1.0.4 ()
  * Copyright 2013-2017 SasoSabotin
  * Licensed under  (https://github.com/BlackrockDigital/my-infosite/blob/master/LICENSE)
  */
@@ -320,6 +320,12 @@ header.masthead {
 
 .screenshot {
   max-width: 200px; }
+
+#skills img, #skills .fa {
+  transition: all .2s;
+  transform: scale(0.8); }
+  #skills img:hover, #skills .fa:hover {
+    transform: scale(1); }
 
 .floating-label-form-group {
   position: relative;
