@@ -169,9 +169,20 @@
   img, .fa {
     transition: all .2s;
     transform: scale(0.8);
+  }
 
-    &:hover {
+  .label {
+    transition: all .2s;
+    transform: scale(1);
+  }
+  .portfolio-item:hover {
+    img, .fa {
       transform: scale(1);
+    }
+
+
+    .label {
+      transform: scale(0.8);
     }
   }
 }
