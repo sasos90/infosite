@@ -324,8 +324,16 @@ header.masthead {
 #skills img, #skills .fa {
   transition: all .2s;
   transform: scale(0.8); }
-  #skills img:hover, #skills .fa:hover {
-    transform: scale(1); }
+
+#skills .label {
+  transition: all .2s;
+  transform: scale(1); }
+
+#skills .portfolio-item:hover img, #skills .portfolio-item:hover .fa {
+  transform: scale(1); }
+
+#skills .portfolio-item:hover .label {
+  transform: scale(0.8); }
 
 .floating-label-form-group {
   position: relative;
